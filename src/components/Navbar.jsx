@@ -1,7 +1,8 @@
 import styles from './Navbar.module.css'
 import React, { useState } from "react";
-
 import { Link, NavLink } from "react-router-dom";
+
+// import ICONS from "../assets/social_media";
 
 export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -12,6 +13,14 @@ export const Navbar = () => {
     { to: "/events", label: "Events" },
     { to: "/educational-games", label: "Games" }
   ];
+
+  const icons = [
+    "src/assets/social_media/EmailUs.svg",
+    "src/assets/social_media/Facebook.svg",
+    "src/assets/social_media/Instagram.svg",
+    "src/assets/social_media/LinkedIn.svg",
+    "src/assets/social_media/Youtube.svg",
+  ]
 
   return (
     <nav className={styles.nav}>
@@ -34,6 +43,11 @@ export const Navbar = () => {
             </NavLink>
           </li>
         ))}
+        <div className={styles.iconsDiv}>
+          {icons.map((src, index) => (
+            <img height={"30px"} key={index} src={src} alt={`Image ${index}`} />
+          ))}
+        </div>
       </ul>
     </nav>
   );
