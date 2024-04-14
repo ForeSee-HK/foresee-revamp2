@@ -19,7 +19,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #B4D9F6;
+  background-color: #b4d9f6;
   position: sticky;
   top: 0;
 
@@ -32,7 +32,7 @@
   a {
     display: block;
     text-decoration: none;
-    color: #001E30;
+    color: #001e30;
     padding: 0.5rem;
     margin: 0 0.5rem;
     border-radius: 0.5rem;
@@ -46,7 +46,7 @@
     font-size: 1.5rem;
     margin: 1rem;
     text-decoration: none;
-    color: #001E30;
+    color: #001e30;
   }
 }
 
@@ -79,7 +79,6 @@
   .nav {
     flex-direction: column;
     align-items: flex-start;
-
 
     ul {
       display: none;

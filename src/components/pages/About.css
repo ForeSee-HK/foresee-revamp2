@@ -1,0 +1,132 @@
+.mission-ctr {
+  display: flex;
+  flex-direction: row;
+  background-color: #f6f2eb;
+}
+.mission-right {
+  background-color: #b1eaea;
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+.mission-left {
+  width: 60%;
+}
+
+.mission-heading,
+.what-we-do-heading,
+.founding-story-heading,
+.core-members-heading {
+  font-size: 30px;
+  font-weight: 700;
+  margin: 20px 20px;
+  text-align: left;
+}
+
+.founding-story-heading {
+  color: white;
+}
+
+.founding-story-time {
+  color: white;
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 1.25;
+  margin: 0;
+}
+
+.founding-story-main-desc {
+  color: white;
+  font-size: 20px;
+  margin: 0 15px;
+}
+
+.mission-desc,
+.what-we-do-desc {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0 20px 20px 20px;
+  text-align: left;
+}
+
+.mission-slogan {
+  color: white;
+  font-size: 50px;
+  font-weight: 800;
+  margin: 0;
+  line-height: 1.5;
+}
+
+.founding-story {
+  background-color: #2d9cdb;
+  padding: 10px 0;
+}
+
+.founding-story-timeline-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0 0 0;
+  border-bottom: 1px solid white;
+}
+
+.founding-story-timeline-time {
+  font-size: 30px;
+  font-weight: 700px;
+  color: white;
+  margin: 0;
+  line-height: 1;
+  width: 15%;
+}
+
+.founding-story-timeline-desc {
+  font-size: 20px;
+  color: white;
+  margin: 0;
+  line-height: 1;
+  width: 80%;
+  text-align: left;
+}
+
+.founding-story-left-right-ctr {
+  display: flex;
+  justify-content: space-between;
+}
+
+.founding-story-left,
+.founding-story-right {
+  width: 50%;
+}
+
+@media (max-width: 967px) {
+  .founding-story-left-right-ctr {
+    flex-direction: column;
+  }
+  .founding-story-left,
+  .founding-story-right {
+    width: 100%;
+  }
+}
+
+.image-title-div {
+  width: 500px;
+}
+
+.image-title-img {
+  border-radius: 15px;
+  height: 175px;
+  width: 350px;
+}
+
+.image-title-ttl {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.things-we-did {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
