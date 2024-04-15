@@ -1,0 +1,24 @@
+.contact-button {
+  background-color: #2d9cdb;
+  padding: 5px;
+}
+
+.contact-button-text {
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+  margin: 0;
+}
+
+.collab-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.collab-headline {
+  font-size: 20px;
+  font-weight: 700;
+}

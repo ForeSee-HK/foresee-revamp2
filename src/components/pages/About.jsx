@@ -2,6 +2,7 @@ import "./About.css";
 import FoundingStoryTimelineBox from "./about-page-components/FoundingStoryTimelineBox";
 import ThingsWeDid from "./about-page-components/ThingsWeDid";
 import CoreMemberTeamStructure from "./about-page-components/core-members.png";
+import CollabOpportunities from "../CollabOpportunities";
 
 export const About = () => {
   return (
@@ -74,6 +75,7 @@ export const About = () => {
           className="core-member-team-structure"
         />
       </div>
+      <CollabOpportunities />
     </div>
   );
 };

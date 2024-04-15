@@ -1,4 +1,4 @@
-import styles from './Navbar.module.css'
+import styles from "./Navbar.module.css";
 import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 
@@ -8,10 +8,11 @@ export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   const menuItems = [
-    { to: "/about-foresee", label: "About Foresee" },
+    // { to: "/about-foresee", label: "About Foresee" },
+    { to: "/", label: "About Foresee" },
     { to: "/join-foresee", label: "Join Foresee" },
     { to: "/events", label: "Events" },
-    { to: "/educational-games", label: "Games" }
+    { to: "/educational-games", label: "Games" },
   ];
 
   const icons = [
@@ -20,14 +21,19 @@ export const Navbar = () => {
     "src/assets/social_media/Instagram.svg",
     "src/assets/social_media/LinkedIn.svg",
     "src/assets/social_media/Youtube.svg",
-  ]
+  ];
 
   return (
     <nav className={styles.nav}>
       <Link to="/" className={styles.title}>
         Foresee
       </Link>
-      <div className={menuOpen ? `${styles.hamburger} ${styles.active}` : styles.hamburger} onClick={() => setMenuOpen(!menuOpen)}>
+      <div
+        className={
+          menuOpen ? `${styles.hamburger} ${styles.active}` : styles.hamburger
+        }
+        onClick={() => setMenuOpen(!menuOpen)}
+      >
         <span className={styles.bar}></span>
         <span className={styles.bar}></span>
         <span className={styles.bar}></span>
