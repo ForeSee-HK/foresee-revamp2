@@ -12,7 +12,7 @@
   margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color: #ffffff;
+  background-color: #001e30;
 }
 
 .nav {
@@ -41,14 +41,23 @@
     }
   }
 
+  .titleDiv {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    gap: 10px;
 
+    img {
+      width: 42px;
+    }
 
-  .title {
-    font-size: 1.5rem;
-    margin: 1rem;
-    text-decoration: none;
-    color: #001e30;
+    .title {
+      font-size: 1.5rem;
+      text-decoration: none;
+      color: #001e30;
+    }
   }
+
 }
 
 .linkActive {
@@ -107,5 +116,6 @@
     display: flex;
     justify-content: center;
     gap: 10px;
+    margin-bottom: 20px;
   }
 }

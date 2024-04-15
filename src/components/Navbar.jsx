@@ -1,6 +1,7 @@
 import styles from "./Navbar.module.css";
 import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
+import logo from "../assets/logo.png";
 
 // import ICONS from "../assets/social_media";
 
@@ -25,9 +26,12 @@ export const Navbar = () => {
 
   return (
     <nav className={styles.nav}>
-      <Link to="/" className={styles.title}>
-        Foresee
-      </Link>
+      <div className={styles.titleDiv}>
+        <img src={logo} />
+        <Link to="/" className={styles.title}>
+          Foresee
+        </Link>
+      </div>
       <div
         className={
           menuOpen ? `${styles.hamburger} ${styles.active}` : styles.hamburger
