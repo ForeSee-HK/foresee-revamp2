@@ -87,9 +87,9 @@ const PastEventsObj = [
 const PastEvents = () => {
   return (
     <>
-      {PastEventsObj.map((pastEvent) => {
+      {PastEventsObj.map((pastEvent, index) => {
         return (
-          <PastEventComponent
+          <PastEventComponent key={index}
             eventImg={pastEvent.eventImg}
             eventTitle={pastEvent.eventTitle}
             eventSubtitle={pastEvent.eventSubtitle}
