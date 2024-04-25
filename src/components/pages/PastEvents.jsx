@@ -1,13 +1,13 @@
-import "../Events.css";
+import "./Events.css";
 import PastEventComponent from "./PastEventComponent";
-import iCareImg from "./i-care.png";
-import EyeHealthCovidImg from "./eye-health-covid.png";
-import InnovatingEyecareImg from "./innovating-eyecare.png";
-import BlindfoldDrawingImg from "./blindfold-drawing.png";
-import OrbisSAimg from "./orbis-sa.png";
-import FamilyKidEventImg from "./family-kid-event.png";
-import WorldSightDayImg from "./world-sight-day.png";
-import LeeTungFundraiseImg from "./lee-tung-fundraise.png";
+import iCareImg from "../../assets/events-page/i-care.png";
+import EyeHealthCovidImg from "../../assets/events-page/eye-health-covid.png";
+import InnovatingEyecareImg from "../../assets/events-page/innovating-eyecare.png";
+import BlindfoldDrawingImg from "../../assets/events-page/blindfold-drawing.png";
+import OrbisSAimg from "../../assets/events-page/orbis-sa.png";
+import FamilyKidEventImg from "../../assets/events-page/family-kid-event.png";
+import WorldSightDayImg from "../../assets/events-page/world-sight-day.png";
+import LeeTungFundraiseImg from "../../assets/events-page/lee-tung-fundraise.png";
 
 const PastEventsObj = [
   {
@@ -89,7 +89,8 @@ const PastEvents = () => {
     <>
       {PastEventsObj.map((pastEvent, index) => {
         return (
-          <PastEventComponent key={index}
+          <PastEventComponent
+            key={index}
             eventImg={pastEvent.eventImg}
             eventTitle={pastEvent.eventTitle}
             eventSubtitle={pastEvent.eventSubtitle}

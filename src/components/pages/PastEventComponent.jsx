@@ -1,4 +1,4 @@
-import "../Events.css";
+import "./Events.css";
 
 const PastEventComponent = (props) => {
   return (

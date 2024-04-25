@@ -1,10 +1,10 @@
-import "../About.css";
-import ExperientialEvents from "./experiential-events.png";
-import TalkAndSeminar from "./talk-n-seminar.png";
-import EducationalGames from "./educational-games.png";
-import TechnologicalTools from "./technological-tools.png";
-import SocialMediaEngagement from "./social-media-engagement.png";
-import FundraisingCollabs from "./fundraising-collab.png";
+import "./About.css";
+import ExperientialEvents from "../../assets/about-page/experiential-events.png";
+import TalkAndSeminar from "../../assets/about-page/talk-n-seminar.png";
+import EducationalGames from "../../assets/about-page/educational-games.png";
+import TechnologicalTools from "../../assets/about-page/technological-tools.png";
+import SocialMediaEngagement from "../../assets/about-page/social-media-engagement.png";
+import FundraisingCollabs from "../../assets/about-page/fundraising-collab.png";
 
 const ImageTitleButton = (props) => {
   return (

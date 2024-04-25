@@ -1,5 +1,5 @@
 import "./Events.css";
-import PastEvents from "./events-page-components/PastEvents";
+import PastEvents from "./PastEvents";
 import CollabOpportunities from "../CollabOpportunities";
 
 export const Events = () => {

@@ -1,7 +1,7 @@
 import "./About.css";
-import FoundingStoryTimelineBox from "./about-page-components/FoundingStoryTimelineBox";
-import ThingsWeDid from "./about-page-components/ThingsWeDid";
-import CoreMemberTeamStructure from "./about-page-components/core-members.png";
+import FoundingStoryTimelineBox from "./FoundingStoryTimelineBox";
+import ThingsWeDid from "./ThingsWeDid";
+import CoreMemberTeamStructure from "../../assets/about-page/core-members.png";
 import CollabOpportunities from "../CollabOpportunities";
 
 export const About = () => {
