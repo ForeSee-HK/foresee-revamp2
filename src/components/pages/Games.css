@@ -1,6 +1,28 @@
-.game-title {
-  text-decoration: underline;
+.games-heading {
   font-size: 30px;
+  font-weight: 700;
+  margin: 20px 20px;
   text-align: left;
-  padding: 10px;
+}
+
+.game-image {
+  width: 200px;
+}
+
+.game-heading {
+  font-size: 25px;
+  font-weight: 700;
+  margin: 20px 20px;
+  text-align: left;
+}
+
+.game-paragraph {
+  font-size: 15px;
+  margin: 20px 20px;
+  text-align: left;
+}
+
+.game-container {
+  display: flex;
+  margin: 10px;
 }
