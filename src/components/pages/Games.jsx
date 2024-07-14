@@ -1,5 +1,5 @@
 import "./Games.css"
-import SnakeGameImage from "../../assets/Games/SnakeGame.png"
+import SnakeGameImage from "../../assets/games-page/SnakeGame.png"
 
 export const Games = () => {
   return (

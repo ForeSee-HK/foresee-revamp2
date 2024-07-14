@@ -15,12 +15,12 @@
 .past-event-ctr {
   display: flex;
   justify-content: flex-start;
-  align-items: flex-start;
+  align-items: stretch;
   margin-bottom: 25px;
 }
 
 .event-img {
-  max-width: 20%;
+  /* max-width: 20%; */
 }
 
 .event-details {
@@ -69,10 +69,12 @@
   .event-title {
     font-size: 22px;
   }
+
   .event-subtitle,
   .event-desc {
     font-size: 14px;
   }
+
   .event-date,
   .event-venue {
     font-size: 12px;
