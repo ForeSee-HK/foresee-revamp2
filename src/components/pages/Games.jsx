@@ -13,8 +13,8 @@ export const Games = () => {
           <p className="game-heading">Colourblindness Snake Game</p>
           <p className="game-paragraph">In this game, you control the snake with either keyboard or virtual joystick. When an apple is eaten, screen will switch to a colourblindness.</p>
         </div>
-        <Test />
       </div>
+      <Test />
     </>
   )
 };
