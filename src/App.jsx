@@ -34,18 +34,21 @@ const NoNavbarLayout = () => {
 function App() {
   return (
     <>
-      <Navbar />
-      <div className="page-content">
-        <Routes>
+      {/* <Navbar />
+      <div className="page-content"> */}
+      <Routes>
+        <Route element={<MainLayout />}>
           <Route path="/" element={<About />} />
           {/* <Route path="/about-foresee" element={<About />} /> */}
           <Route path="/join-foresee" element={<Join />} />
           <Route path="/events" element={<Events />} />
           <Route path="/educational-games" element={<Games />} />
-          {/* Game Routes */}
-          {/* <Route path="/snake-on-page" element={<SnakeOnPage />} /> */}
-        </Routes>
-      </div>
+        </Route>
+
+        {/* Game Routes */}
+        <Route path="/snake-on-page" element={<SnakeOnPage />} />
+      </Routes>
+      {/* </div > */}
     </>
   );
 }
