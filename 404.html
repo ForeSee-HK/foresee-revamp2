@@ -11,8 +11,12 @@
   <script type="text/javascript">
     (function () {
       var pathname = window.location.pathname;
+      var repoName = 'foresee-revamp2'
       var origin = window.location.origin;
-      window.location.href = origin + '/foresee-revamp2' + pathname;
+
+      if (!pathname.startsWith(repoName)) {
+        window.location.href = origin + repoName + pathname;
+      }
     })();
   </script>
 </body>
