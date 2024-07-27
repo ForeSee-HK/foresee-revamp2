@@ -1,1 +1,0 @@
-const a="/map/map.png",p="/map/map_achromatopsia.png",o="/map/map_deuteranopia.png",m="/map/map_protanopia.png",n="/map/map_tritanopia.png",t={normal:a,achromatopsia:p,deuteranopia:o,protanopia:m,tritanopia:n};export{t as default};
