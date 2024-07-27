@@ -13,8 +13,6 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
-    "@isaacindex/npm-test": "github:isaacindex/npm-test",
-    "@isaacindex/snake-on-page": "github:isaacindex/snake-on-page",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.22.3"

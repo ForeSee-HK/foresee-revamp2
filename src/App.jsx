@@ -7,7 +7,7 @@ import { Navbar } from "./components/Navbar";
 import { About, Events, Games, Home, Join } from "./components/pages";
 
 // Games
-import SnakeOnPage from "@isaacindex/snake-on-page"
+// import SnakeOnPage from "@isaacindex/snake-on-page"
 
 // Main layout component with navbar
 const MainLayout = () => {
@@ -41,7 +41,7 @@ function App() {
         <Route path="/events" element={<Events />} />
         <Route path="/educational-games" element={<Games />} />
         {/* Game Routes */}
-        <Route path="/snake-on-page" element={<SnakeOnPage />} />
+        {/* <Route path="/snake-on-page" element={<SnakeOnPage />} /> */}
       </Routes >
     </>
   );
