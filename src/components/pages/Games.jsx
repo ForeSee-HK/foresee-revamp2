@@ -1,6 +1,6 @@
 import "./Games.css"
 import SnakeGameImage from "../../assets/games-page/SnakeGame.png"
-import Test from "@isaacindex/snake-on-page"
+// import Test from "@isaacindex/snake-on-page"
 
 export const Games = () => {
   const handleGameClick = (path) => {

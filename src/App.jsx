@@ -7,7 +7,7 @@ import { Navbar } from "./components/Navbar";
 import { About, Events, Games, Home, Join } from "./components/pages";
 
 // Games
-// import SnakeOnPage from "@isaacindex/snake-on-page"
+import SnakeOnPage from "@isaacindex/snake-on-page"
 
 // Main layout component with navbar
 const MainLayout = () => {
