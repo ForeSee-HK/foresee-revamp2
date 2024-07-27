@@ -2,6 +2,7 @@ import "./App.css";
 import { useState } from "react";
 import { Route, Routes } from "react-router-dom";
 import { Outlet } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 import { Navbar } from "./components/Navbar";
 import { About, Events, Games, Home, Join } from "./components/pages";
@@ -25,7 +26,7 @@ const MainLayout = () => {
 const GameLayout = () => {
   return (
     <>
-      <Link to="/">Home</Link>
+      <Link to="/" style={{ left: 0, position: "fixed" }}>Home</Link>
       <Outlet />
     </>
   );
