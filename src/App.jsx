@@ -35,17 +35,13 @@ function App() {
   return (
     <>
       <Routes>
-        <Route element={<MainLayout />}>
-          <Route path="/" element={<About />} />
-          {/* <Route path="/about-foresee" element={<About />} /> */}
-          <Route path="/join-foresee" element={<Join />} />
-          <Route path="/events" element={<Events />} />
-          <Route path="/educational-games" element={<Games />} />
-        </Route>
-        <Route element={<NoNavbarLayout />}>
-          {/* Game Routes */}
-          <Route path="/snake-on-page" element={<SnakeOnPage />} />
-        </Route>
+        <Route path="/" element={<About />} />
+        {/* <Route path="/about-foresee" element={<About />} /> */}
+        <Route path="/join-foresee" element={<Join />} />
+        <Route path="/events" element={<Events />} />
+        <Route path="/educational-games" element={<Games />} />
+        {/* Game Routes */}
+        <Route path="/snake-on-page" element={<SnakeOnPage />} />
       </Routes >
     </>
   );
