@@ -4,14 +4,15 @@ import SnakeGameImage from "../../assets/games-page/SnakeGame.png"
 
 export const Games = () => {
   const handleGameClick = (path) => {
-    window.open(path, '_blank');
+    const baseUrl = `${window.location.origin}/${'foresee-revamp2'}`
+    window.open(`${baseUrl}${path}`, '_self')
   }
 
   return (
     <>
       <p className="games-heading">Explore Our Educational Games</p>
       {/* Snake Game */}
-      <div className="game-container" onClick={() => handleGameClick("snake-on-page")}>
+      <div className="game-container" onClick={() => handleGameClick("/snake-on-page")}>
         <img className="game-image" src={SnakeGameImage} alt="" />
         <div>
           <p className="game-heading">Colourblindness Snake Game</p>

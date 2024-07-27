@@ -22,9 +22,10 @@ const MainLayout = () => {
 };
 
 // Layout component without navbar
-const NoNavbarLayout = () => {
+const GameLayout = () => {
   return (
     <>
+      <Link to="/">Home</Link>
       <Outlet />
     </>
   );
@@ -46,7 +47,9 @@ function App() {
         </Route>
 
         {/* Game Routes */}
-        <Route path="/snake-on-page" element={<SnakeOnPage />} />
+        <Route element={<GameLayout />}>
+          <Route path="/snake-on-page" element={<SnakeOnPage />} />
+        </Route>
       </Routes>
       {/* </div > */}
     </>
