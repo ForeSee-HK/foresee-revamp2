@@ -14,6 +14,7 @@
   },
   "dependencies": {
     "@isaacindex/snake-on-page": "github:isaacindex/snake-on-page",
+    "@kriffendy/fs-game": "github:kriffendy/fs-game",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.22.3"
