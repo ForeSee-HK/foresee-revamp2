@@ -1,0 +1,36 @@
+.menuButton {
+  border: 2px solid black;
+  outline: 1px solid black;
+  border-radius: 20px;
+  padding: 15px 30px;
+  font-size: 20px;
+  font-weight: 600;
+  color: black;
+  width: 90%;
+  margin: 20px;
+  cursor: pointer;
+  background-color: #e9e9e9;
+}
+
+.menuButton:hover {
+  background-color: #b0b0b0;
+}
+
+.mainMenuPageContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-menu-button-title {
+  margin: 5px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.main-menu-button-desc {
+  margin: 5px;
+  font-size: 16px;
+  font-weight: 500;
+}

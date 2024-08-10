@@ -14,10 +14,23 @@
   },
   "dependencies": {
     "@isaacindex/snake-on-page": "github:isaacindex/snake-on-page",
-    "@kriffendy/fs-game": "github:kriffendy/fs-game",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.22.3"
+    "react-router-dom": "^6.22.3",
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.15.2",
+    "@mui/system": "^5.15.6",
+    "@mui/x-data-grid": "^6.19.2",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "bootstrap": "^5.3.2",
+    "firebase": "^10.7.1",
+    "react-bootstrap": "^2.10.1",
+    "react-firebase-hooks": "^5.1.1",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
   },
   "devDependencies": {
     "@types/react": "^18.2.66",

@@ -1,0 +1,88 @@
+.game-title {
+  color: #1772a6;
+  font-weight: 600;
+}
+
+@media (max-width: 575.98px) {
+  .game-title {
+    font-size: 20px;
+    margin: 20px 0 0 20px;
+  }
+}
+
+/* Small devices (tablets) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .game-title {
+    font-size: 25px;
+    margin: 25px 0 0 25px;
+  }
+}
+
+/* Medium devices (desktops) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .game-title {
+    font-size: 32px;
+    margin: 28px 0 0 28px;
+  }
+}
+
+/* Large devices (large desktops) */
+@media (min-width: 992px) {
+  .game-title {
+    font-size: 40px;
+    margin: 32px 0 0 32px;
+  }
+}
+
+.explore-other-text {
+  font-size: 18px;
+  color: #1772a6;
+  text-decoration: underline;
+  font-weight: 700;
+  text-align: right;
+  margin: 40px;
+}
+
+.page-container {
+  display: grid;
+  grid-template-rows: auto 1fr auto; /* Top, middle, and bottom sections */
+  height: 100vh; /* Make the container occupy the full viewport height */
+  overflow: hidden;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.game-primary-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.game-secondary-container {
+  width: 90%;
+  height: 100%;
+  /* display: flex;
+  flex-direction: column; */
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.game-desc {
+  font-size: 20px;
+  margin-left: 40px;
+  margin-bottom: 80px;
+}
+
+.explore-other-footer {
+  max-height: 100px;
+}

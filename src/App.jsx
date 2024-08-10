@@ -9,12 +9,14 @@ import { About, Events, Games, Home, Join } from "./components/pages";
 
 // Games
 import SnakeOnPage from "@isaacindex/snake-on-page";
-// import GameScreen from "@kriffendy/fs-game";
-// import TextClassificationGame from "@kriffendy/fs-game";
-// import HealthQuiz from "@kriffendy/fs-game";
-import HealthQuiz from "@kriffendy/fs-game/src/screens/healthQuiz";
-import TextClassificationGame from "@kriffendy/fs-game/src/screens/textClassification";
-import GameScreen from "@kriffendy/fs-game/src/screens/gameScreen";
+// // import GameScreen from "@kriffendy/fs-game";
+// // import TextClassificationGame from "@kriffendy/fs-game";
+// // import HealthQuiz from "@kriffendy/fs-game";
+// import HealthQuiz from "@kriffendy/fs-game/src/screens/healthQuiz";
+// import TextClassificationGame from "@kriffendy/fs-game/src/screens/textClassification";
+import GameScreen from "./other-games/screens/gameScreen";
+import TextClassificationGame from "./other-games/screens/textClassification";
+import HealthQuiz from "./other-games/screens/healthQuiz";
 
 // Main layout component with navbar
 const MainLayout = () => {
