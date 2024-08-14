@@ -238,7 +238,7 @@ const F = () => {
   const [o, i] = w(0);
   return console.log(o), /* @__PURE__ */ j("div", { children: [
     /* @__PURE__ */ b("span", { style: { position: "fixed", zIndex: 999, top: 0, backgroundColor: "white" }, children: o }),
-    /* @__PURE__ */ b("img", { src: "/assets/mountain.jpg", alt: "My Image" })
+    /* @__PURE__ */ b("img", { src: "/foresee-revamp2/assets/mountain.jpg", alt: "My Image" })
   ] });
 };
 export {
