@@ -1,0 +1,147 @@
+.text-classification-game-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.text-classification-title {
+  font-weight: 700;
+  text-align: center;
+}
+
+.text-instructions {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.text-game-score-title {
+  font-size: 28px;
+  font-weight: 700;
+  margin: 20px 0 5px 0;
+}
+
+.text-game-score {
+  font-weight: 700;
+  color: red;
+  margin-top: 0;
+}
+
+.text-game-timer {
+  font-weight: 700;
+  text-align: center;
+}
+
+.text-game-prompt {
+  font-weight: 600;
+  margin-top: 35px;
+}
+
+.text-game-current-word {
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/* YourComponent.css */
+
+/* Extra small devices (phones) */
+@media (max-width: 575.98px) {
+  .text-instructions {
+    font-size: 12px;
+  }
+  .text-classification-title {
+    font-size: 18px;
+  }
+  .text-game-score {
+    font-size: 28px;
+  }
+  .text-game-timer {
+    font-size: 20px;
+  }
+  .text-game-prompt {
+    font-size: 16px;
+  }
+}
+
+/* Small devices (tablets) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .text-instructions {
+    font-size: 14px;
+  }
+  .text-classification-title {
+    font-size: 21px;
+  }
+  .text-game-score {
+    font-size: 31px;
+  }
+  .text-game-timer {
+    font-size: 22px;
+  }
+  .text-game-prompt {
+    font-size: 18px;
+  }
+}
+
+/* Medium devices (desktops) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .text-instructions {
+    font-size: 16px;
+  }
+  .text-classification-title {
+    font-size: 22px;
+  }
+  .text-game-score {
+    font-size: 34px;
+  }
+  .text-game-timer {
+    font-size: 25px;
+  }
+  .text-game-prompt {
+    font-size: 21px;
+  }
+}
+
+/* Large devices (large desktops) */
+@media (min-width: 992px) {
+  .text-instructions {
+    font-size: 18px;
+  }
+  .text-classification-title {
+    font-size: 25px;
+  }
+  .text-game-score {
+    font-size: 37px;
+  }
+  .text-game-timer {
+    font-size: 28px;
+  }
+  .text-game-prompt {
+    font-size: 24px;
+  }
+}
+
+
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-game-buttons-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+
+
+
+.instructions-container {
+  display: flex;
+  flex-direction: column;
+}
+
+

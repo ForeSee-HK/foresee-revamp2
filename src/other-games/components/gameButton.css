@@ -1,0 +1,45 @@
+.game-button {
+  border: none;
+  border-radius: 10px;
+  /* padding: 10px 15px;
+  font-size: 16px; */
+  font-weight: 600;
+  margin: 0;
+  color: white;
+  background-color: #1772a6;
+}
+
+.game-button:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 575.98px) {
+  .game-button {
+    font-size: 13px;
+    padding: 6px 9px;
+  }
+}
+
+/* Small devices (tablets) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .game-button {
+    font-size: 14px;
+    padding: 9px 12px;
+  }
+}
+
+/* Medium devices (desktops) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .game-button {
+    font-size: 15px;
+    padding: 12px 15px;
+  }
+}
+
+/* Large devices (large desktops) */
+@media (min-width: 992px) {
+  .game-button {
+    font-size: 16px;
+    padding: 14px 18px;
+  }
+}
