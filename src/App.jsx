@@ -34,7 +34,7 @@ const MainLayout = () => {
 const GameLayout = () => {
   return (
     <>
-      <Link to="/" style={{ left: 0, position: "fixed" }}>
+      <Link to="/" style={{ left: 0, position: "fixed", zIndex: 999 }}>
         Home
       </Link>
       <Outlet />
