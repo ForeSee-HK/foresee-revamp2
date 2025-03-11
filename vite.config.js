@@ -10,7 +10,7 @@ export default defineConfig({
     targets: [
       {
         src: 'node_modules/**/maps/*',
-        dest: 'maps'
+        dest: 'snake-on-page/maps'
       }
     ]
     // targets: [
