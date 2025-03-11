@@ -4,7 +4,7 @@ import { viteStaticCopy } from 'vite-plugin-static-copy'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "https://foresee-revamp2.pages.dev/",
+  base: "/",
   plugins: [react(),
   viteStaticCopy({
     targets: [
