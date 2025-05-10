@@ -10,7 +10,7 @@ export const Events = () => {
     <div>
       <div className="upcoming-events-container">
         <p className="subsection-heading">Upcoming Events</p>
-        <p className="">There are no upcoming events at the moment.</p>
+        <p className="">There are no upcoming events at the moment. Please wait</p>
       </div>
       <div className="past-events-section">
         <p className="subsection-heading">Past Events</p>
