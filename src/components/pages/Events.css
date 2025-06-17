@@ -1,8 +1,10 @@
 .upcoming-events-container {
   display: flex;
   flex-direction: column;
-  background-color: #f6f2eb;
   padding-bottom: 20px;
+  width: 100%;
+  margin: 0;
+  position: relative;
 }
 
 .subsection-heading {
