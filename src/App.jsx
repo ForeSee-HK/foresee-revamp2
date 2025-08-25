@@ -1,11 +1,9 @@
 import "./App.css";
-import { useState } from "react";
 import { Route, Routes } from "react-router-dom";
-import { Outlet } from "react-router-dom";
-import { Link } from "react-router-dom";
 
-import { Navbar } from "./components/Navbar";
-import { About, Events, Games, Home, Join } from "./components/pages";
+import { About, Events, Games, Join } from "./components/pages";
+import MainLayout from "./layout/MainLayout";
+import GameLayout from "./layout/GameLayout";
 
 // Games
 import SnakeOnPage from "@isaacindex/snake-on-page";
@@ -17,30 +15,6 @@ import SnakeOnPage from "@isaacindex/snake-on-page";
 import GameScreen from "./other-games/screens/gameScreen";
 import TextClassificationGame from "./other-games/screens/textClassification";
 import HealthQuiz from "./other-games/screens/healthQuiz";
-
-// Main layout component with navbar
-const MainLayout = () => {
-  return (
-    <>
-      <Navbar />
-      <div className="page-content">
-        <Outlet />
-      </div>
-    </>
-  );
-};
-
-// Layout component without navbar
-const GameLayout = () => {
-  return (
-    <>
-      <Link to="/" style={{ left: 0, position: "fixed", zIndex: 999 }}>
-        Home
-      </Link>
-      <Outlet />
-    </>
-  );
-};
 
 function App() {
   return (
