@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 
 import { Navbar } from "./components/Navbar";
 import { About, Events, Games, Home, Join } from "./components/pages";
+import Event from "./components/pages/Event";
 
 // Games
 import SnakeOnPage from "@isaacindex/snake-on-page";
@@ -53,6 +54,7 @@ function App() {
           {/* <Route path="/about-foresee" element={<About />} /> */}
           <Route path="/join-foresee" element={<Join />} />
           <Route path="/events" element={<Events />} />
+          <Route path="/event" element={<Event />} /> 
           <Route path="/educational-games" element={<Games />} />
         </Route>
 
