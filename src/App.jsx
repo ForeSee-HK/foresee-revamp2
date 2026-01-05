@@ -2,6 +2,7 @@ import "./App.css";
 import { Route, Routes } from "react-router-dom";
 
 import { About, Events, Games, Join } from "./components/pages";
+import Event from "./components/pages/Event";
 import MainLayout from "./layout/MainLayout";
 import GameLayout from "./layout/GameLayout";
 
@@ -27,6 +28,7 @@ function App() {
           {/* <Route path="/about-foresee" element={<About />} /> */}
           <Route path="/join-foresee" element={<Join />} />
           <Route path="/events" element={<Events />} />
+          <Route path="/event" element={<Event />} />
           <Route path="/educational-games" element={<Games />} />
         </Route>
 
