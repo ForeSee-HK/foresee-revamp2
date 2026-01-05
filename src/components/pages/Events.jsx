@@ -2,6 +2,7 @@ import "./Events.css";
 import PastEvents from "./PastEvents";
 import CollabOpportunities from "../CollabOpportunities";
 import UpcomingEvents from "./UpcomingEvents";
+import { Link } from "react-router-dom";
 
 export const Events = () => {
   return (

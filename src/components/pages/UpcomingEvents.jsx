@@ -63,6 +63,14 @@ function Upcoming() {
   );
 }
 
+function Footer() {
+  return (
+    <div className="footer">
+      <hr />
+    </div>
+  );
+}
+
 export default function UpcomingEvents() {
   return (
     <div className="app">

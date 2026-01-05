@@ -1,32 +1,34 @@
-import "./Join.css";
+import './Join.css'; // link to your CSS file
+
 
 export const Join = () => {
+
   const isRecruitmentOpen = true;
 
   const jobOpenings = [
     {
-      team: "Team Alpha",
-      description: "Frontend Developer",
-      details: ["React, CSS, Tailwind", "2+ years experience"],
-      link: "https://docs.google.com/forms/d/e/1FAIpQLSdJQDNr5RE_KOnGWs9i5jlOdAj_UiSTDjWVVS9GtrpZhL83mA/viewform?usp=dialog",
+      team: 'Team Alpha',
+      description: 'Frontend Developer',
+      details: ['React, CSS, Tailwind', '2+ years experience'],
+      link: 'https://docs.google.com/forms/d/e/1FAIpQLSdJQDNr5RE_KOnGWs9i5jlOdAj_UiSTDjWVVS9GtrpZhL83mA/viewform?usp=dialog',
     },
     {
-      team: "Team Beta",
-      description: "Marketing Intern",
-      details: ["Social Media, Content Creation", "Remote option"],
-      link: "https://docs.google.com/forms/d/e/1FAIpQLScIcvUJr-Fq4Rw2EFBwt2ftOvRiRkv_8FkQyOCqzvYrlJM9kA/viewform?usp=dialog",
+      team: 'Team Beta',
+      description: 'Marketing Intern',
+      details: ['Social Media, Content Creation', 'Remote option'],
+      link: 'https://docs.google.com/forms/d/e/1FAIpQLScIcvUJr-Fq4Rw2EFBwt2ftOvRiRkv_8FkQyOCqzvYrlJM9kA/viewform?usp=dialog',
     },
     {
-      team: "Team Beta",
-      description: "Marketing Intern",
-      details: ["Social Media, Content Creation", "Remote option"],
-      link: "https://docs.google.com/forms/d/e/1FAIpQLScIcvUJr-Fq4Rw2EFBwt2ftOvRiRkv_8FkQyOCqzvYrlJM9kA/viewform?usp=dialog",
+      team: 'Team Beta',
+      description: 'Marketing Intern',
+      details: ['Social Media, Content Creation', 'Remote option'],
+      link: 'https://docs.google.com/forms/d/e/1FAIpQLScIcvUJr-Fq4Rw2EFBwt2ftOvRiRkv_8FkQyOCqzvYrlJM9kA/viewform?usp=dialog',
     },
     {
-      team: "Team Beta",
-      description: "Marketing Intern",
-      details: ["Social Media, Content Creation", "Remote option"],
-      link: "https://docs.google.com/forms/d/e/1FAIpQLScIcvUJr-Fq4Rw2EFBwt2ftOvRiRkv_8FkQyOCqzvYrlJM9kA/viewform?usp=dialog",
+      team: 'Team Beta',
+      description: 'Marketing Intern',
+      details: ['Social Media, Content Creation', 'Remote option'],
+      link: 'https://docs.google.com/forms/d/e/1FAIpQLScIcvUJr-Fq4Rw2EFBwt2ftOvRiRkv_8FkQyOCqzvYrlJM9kA/viewform?usp=dialog',
     },
   ];
 
@@ -79,18 +81,18 @@ export const Join = () => {
                     >
                       Click Here to Apply
                     </a>
-                  </div>
-                ))}
-              </div>
-            </>
-          ) : (
-            <p className="closed-msg">
-              Our recruitment application is currently closed. Please stay tuned for more updates!
-            </p>
-          )}
-        </div>
-      </section>
-
+                </div>
+              ))}
+            </div>
+          </>
+        ) : (
+          <p className="closed-msg">
+            Our recruitment application is currently closed. Please stay tuned for more updates!
+          </p>
+        )}
+      </div>
+</section>
+      
       <section id="partner" className="partner">
         <div>
           <h2>Become a ForeSee Partner</h2>
